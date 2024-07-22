@@ -1,4 +1,4 @@
-const fetchUrl = "http://localhost:3000/movies";
+const fetchUrl = "https://deploy-nine-rosy.vercel.app/movies";
 
 let allMovies = [];
 
