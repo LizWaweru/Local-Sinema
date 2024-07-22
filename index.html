@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Sinema</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <h1>254 Site Sinema</h1>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#" id="topMoviesBtn">Top Movies</a></li>
+                <li><a href="#" id="latestMoviesBtn">Latest Movies</a></li>
+            </ul>
+        </nav>
+    
+        <form id="searchForm" role="search" aria-label="Movie Search Form">
+            <input type="text" id="movieSearch" placeholder="Search for a movie..." aria-label="Search for a movie">
+            <button type="submit">Search</button>
+        </form>
+    </header>
+
+    <main id="mainContent">
+        <aside class="sidebar">
+            <h2>Movie Categories</h2>
+            <ul id="categoryList">
+            </ul>
+        </aside>
+
+        <div class="main-content">
+            <h2 id="categoryTitle">Select a category to view movies</h2>
+            <div id="movieDetails">
+            </div> 
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Local Cinema Review Site. All rights reserved.</p>
+    </footer>
+</body>
+</html>

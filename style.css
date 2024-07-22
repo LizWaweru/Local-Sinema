@@ -1,0 +1,216 @@
+body, h1, h2, h3, p, ul, li, form, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1676188114945-efdc6d290dbb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxOXx8fGVufDB8fHx8fA%3D%3D);
+    font-family: Arial, sans-serif;
+    color: #0b031f;
+    background-color: #e06b6b;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-image: url(https://images.unsplash.com/photo-1676188114945-efdc6d290dbb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxOXx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    color: hsl(0, 89%, 7%);
+    padding: 1rem;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    box-shadow: 2px 2px 4px rgba(15, 3, 3, 0.199);
+}
+
+.header h1 {
+    margin-bottom: 0.5rem;
+    background: linear-gradient(to right, rgb(5, 247, 5), rgb(247, 5, 38));
+    background-clip: text;
+    color: transparent; 
+    font: 400px; 
+}   
+
+.menu ul {
+    list-style: disc;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    display: inline;
+    margin: 0 0.5rem;
+}
+
+.menu a {
+    color: #e2c4c4;
+    text-decoration:double;
+    font-weight: bold;
+}
+
+.menu a:hover, .menu a.active {
+    text-decoration:dashed;
+    color: rgb(240, 240, 10); 
+}
+
+#searchForm {
+    margin-top: 1rem;
+    box-shadow: 10px 10px rgba rgb(123, 50, 196) transparent;
+    border-radius: 10 0 0 10px;
+}
+
+#movieSearch {
+    padding: 0.5rem;
+    border: 1px solid #d66161;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    border: 1px solid #b4a3a3;
+    background-color: #1f1e11;
+    color: #837550;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #b777;
+}
+
+main {
+    display: flex;
+    flex-wrap:wrap;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.sidebar {
+    flex: 1;
+    min-width: 250px;
+    padding: 1rem;
+    background-color: #174557;
+    border-radius: 4px;
+    border-right: 1px solid #9112127a;
+}
+
+.sidebar h2 {
+    margin-bottom: 1rem;
+}
+
+#categoryList {
+    list-style: none;
+    padding: 0;
+}
+
+#categoryList li {
+    margin-bottom: 0.5rem;
+}
+
+#categoryList a {
+    color: #e0bcd4c2;
+    text-decoration:dashed;
+    display: block;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+#categoryList a:hover {
+    background-color: #726e30;
+}
+
+.main-content {
+    flex: 3;
+    padding: 1rem;
+    background-color: #0b3b37;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(87, 45, 45, 0.1);
+}
+
+#categoryTitle {
+    margin-bottom: 1rem;
+}
+
+.movie-item {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border: 1px solid #40b15c;
+    border-radius: 4px;
+    background-color: #5a836e;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.movie-item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.movie-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.movie-item h3 {
+    margin: 0.5rem 0;
+}
+
+.movie-item p {
+    margin: 0.5rem 0;
+}
+
+.movie-item a {
+    color: #f0092f;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    padding: 0.5rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    box-shadow: #1a0105;
+}
+
+.movie-item a:hover {
+    text-decoration: underline;
+    box-shadow:inset 0 2px 0 rgba(236, 19, 19, 0);
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #0f5368;
+    color: #fff;
+    margin-top: 1rem;
+    border-top: 1px solid #444;
+}
+
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 1.5rem;
+    }
+
+    .menu li {
+        display: block;
+        margin: 0.5rem 0;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        border-right: none;
+        border-bottom: 1px solid #b90606;
+    }
+
+    .main-content {
+        border-radius: 0;
+        box-shadow: none;
+    }
+}

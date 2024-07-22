@@ -1,0 +1,135 @@
+{
+  "movies": [
+    {
+      "category": "drama",
+      "items": [
+        {
+          "id": 1,
+          "title": "Zari",
+          "image": "https://i.ytimg.com/vi/aLhlCMs41bs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCol98wuwRinNj3sk_FdigG-itzzQ",
+          "trailer": "https://www.youtube.com/watch?v=aLhlCMs41bs&pp=ygUMemFyaSB0cmFpbGVy",
+          "description": "A modern Cinderella story following the journey of Nina, a young woman whose true family and fortune remain hidden from her.",
+          "cast": [
+            "Sarah Hassan",
+            "Diana Luwanda",
+            "Angie Magio"
+          ],
+          "release_date": "2023",
+          "Rate":"5/10"
+        },
+        {
+          "id": 2,
+          "title": "VOLUME",
+          "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQer1PrPRH6OAD-zHihsvRrUjWmlTB9dhx0hzE1iNTBxAu_uQeP",
+          "trailer": "https://www.youtube.com/watch?v=MTdbi5UNSUs&pp=ygUTa2VueWFuIGRyYW1hIG1vdmllcw%3D%3D",
+          "description": "VOLUME follows the life of a young man striving to make it in the music industry. He faces challenges, Hustle ya mtaani and soon realizes that the industry is conniving and full of opportunists.",
+          "cast": [
+            "David Tosh Gitonga",
+            " Njiiri Karago",
+            "Fredrick Asiago Vera"
+          ],
+          "release_date": "2023",
+          "Rate":"7/10"
+        },
+        {
+          "id": 3,
+          "title": "Teke",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2L1lfW3V84E4DIj3gVvCH0Y6NP2cw8AFqxFCgI4TlVnqvh0au",
+          "trailer": "https://www.youtube.com/watch?v=nF410DvvIjk&pp=ygULdGVrZSBzZXJpZXM%3D",
+          "description": "TEKE is a Kenyan original series which follows street kid Benjamin Kibonge, who is trying to survive the harsh streets conditions and Patrick Mambo who is working so hard to control and Keep TEKE to himself.",
+          "cast": [
+            "Mwajuma Belle",
+            "Mwaura Bilal",
+            "Madeleine Campbell McNiven"
+          ],
+          "release_date": "2021",
+          "Rate":"4/10"
+        }
+      ]
+    },
+    {
+      "category": "Action",
+      "items": [
+        {
+          "id": 1,
+          "title": "MPAKANI: STORY OF THE NORTH",
+          "image": "https://i.ytimg.com/vi/cxddaHs7PcM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCAl-XJJaJiNCFhiMilBCC1tNTxtg",
+          "trailer": "https://youtu.be/cxddaHs7PcM",
+          "description": "An elite military unit races to prevent a dangerous fugitive from executing an assault in Nairobi.",
+          "cast": [
+            "Benson Ochungo",
+            "Obiero George",
+            "AMoClaude Judah"
+          ],
+          "release_date": "2024",
+          "Rate":"4.5/10"
+        },
+        {
+          "id": 2,
+          "title": "Mission To Rescue",
+          "image": "https://lh3.googleusercontent.com/MrDN2ZaVZq-gfo6gFMLLhtRF6QNYo7O784-hU2i78MPvYIwJD6txaA6uwT-jkV_9PBh0QMUu9qgSwYCTi7dO2VW0pCt-9epoFjdk-X__=s750",
+          "trailer": "https://youtu.be/tzPqF0w9-HI",
+          "description": "Kenyan movie set along the Kenya-Somali border. The Kenya Special Operations Forces, training for their next mission, receive word that the Assistant County Commissioner and two others have been abducted by the Al-Shabaab militia. Mission to Rescue stems from the story of a French woman kidnapped by Al-Shabaab. Created in 2019, the idea seeks to highlight the effects of radicalization within the community to curb terrorism.",
+          "cast": [
+            "Melvin Alusa",
+            "Abdi Yusuf",
+            "Warsame Abdi"
+          ],
+          "release_date": "2021",
+          "Rate":"5.1/10"
+        }
+      ]
+    },
+    {
+      "category": "comedy",
+      "items": [
+        {
+          "id": 1,
+          "title": "Kanairo",
+          "image": "https://i.ytimg.com/vi/pYwKxMRyWi4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCNlzkGFaYjLrc-h1tYqCkNQEvt_Q",
+          "trailer": "https://www.youtube.com/watch?v=pYwKxMRyWi4&pp=ygUTY29tZWR5IG1vdmllcyBrZW55YQ%3D%3D",
+          "description": "Kanairo is a story that mirrors society; the ills that society faces are represented by a man named 'Johnte.' Through 'Johnte,' we explore Kenya's social, psychological, and financial crises. 'Kanairo' highlights the plight of young Kenyan career men aged 25-38 as they struggle to navigate life and the social constructs while the option of suicide lingers around them. 'Kanairo' uses the city as a backbone to show how Nairobian struggles to keep ends meet while struggling with mental health. With the suicidal crisis looming among men in Nairobi, 'Johnte' struggles to fight the suicidal thoughts. Will he succeed?.",
+          "cast": [
+            "Kenrif Ambrose",
+            "Brian Cheruiyot",
+            "Sara Misanya Galgalo"
+          ],
+          "release_date": "2023",
+           "Rate":"7/10"
+        }
+      ]
+    },
+    {
+      "category": "animation",
+      "items": [
+        {
+          "id": 1,
+          "title": "Kizazi moto: Generation fire",
+          "image": "https://static.rayvision.com/media/Kizazi_Moto_Generation_Fire_screenshot_1_jpg_f0a786cc3f.png",
+          "trailer": "https://www.youtube.com/watch?v=WpypOiIB2jc&pp=ygUYa2VueWFuIGFuaW1hdGlvbiBtb3ZpZXMg",
+          "description": "An Afrofuturistic and Africanfuturist animated anthology short film series.",
+          "cast": [
+            "Shofela Coker",
+            "Raymond Malinga",
+            "Ahmed Teilab"
+          ],
+          "release_date": "2023",
+           "Rate":"5.1/10"
+        },
+        {
+          "id": 2,
+          "title": "Terastorm",
+          "image": "https://i.ytimg.com/vi/OxnMJaGejpQ/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAxyGNZSL5UrJnJOJuEsRSrxUFulw",
+          "trailer": "https://www.youtube.com/watch?v=OxnMJaGejpQ&pp=ygUYa2VueWFuIGFuaW1hdGlvbiBtb3ZpZXMg",
+          "description": "A team of superheroes unites in an attempt to vanquish an ancient wizard who threatens to destroy the earth with a powerful mysterious artifact.",
+          "cast": [
+            "Mungai Kiroga",
+            "Melvin Alusa"
+          ],
+          "release_date": "2022",
+           "Rate":"6.1/10"
+        }
+      ]
+    }
+  ]
+}
