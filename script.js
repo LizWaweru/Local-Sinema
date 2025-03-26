@@ -1,4 +1,4 @@
-const API_BASE_URL = "http://localhost:3000/movies";
+const API_BASE_URL = "https://deploy-nine-rosy.vercel.app/";
 
 class MovieApp {
     constructor() {
